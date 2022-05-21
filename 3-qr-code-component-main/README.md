@@ -18,6 +18,9 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
+## Solution
+![QR code component](./screenshot.png)
+
 ## Where to find everything
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
