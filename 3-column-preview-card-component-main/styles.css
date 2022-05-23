@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+
+
+}
+
+.container {
+    display: flex;    
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 900px;
+    column-count: 3;
+    margin: auto;
+  
+   
+
+}
+
+.column-card {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.column-card img {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+.column-card h2 {
+    padding: 0 20px;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+
+}
+
+.column-card p {
+    margin: auto;
+    padding: 10px 20px;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.column-card button {
+    align-items: center;
+    margin-left: 20px;
+    padding: 12px 28px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-align: all 0.4s ease-in-out;
+    
+
+}
+
+
+.sedan-card {
+    background-color: hsl(31, 77%, 52%);
+}
+.sedan-card button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+        
+}
+
+.sedan-card button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.SUVs-card {
+    background-color: hsl(184, 100%, 22%);
+
+}
+.SUVs-card button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+.SUVs-card button:hover {
+    background-color: hsl(184, 100%, 22%);;
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury-card {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury-card button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury-card button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
